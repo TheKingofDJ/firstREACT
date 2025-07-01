@@ -1,12 +1,18 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import './App.css';
+import Header from './components/Header';
+import InfoSection from './components/InfoSection';
+import Menu from './components/Menu';
 
 function App() {
-  //Jedes Return-Statement in einer Funktion muss und darf nur einen Wert zurückgeben.
-  //<></>, auch bekannt als Fragment, ist eine Möglichkeit, mehrere Elemente zu gruppieren, ohne ein zusätzliches DOM-Element zu erzeugen.
-  return (<></>)
+  return (
+    <>
+      <Header />
+      <main>
+        <InfoSection />
+        <Menu />
+      </main>
+    </>
+  );
 }
 
-export default App
+export default App;
