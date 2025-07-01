@@ -2,6 +2,7 @@ import './App.css';
 import Header from './components/Header';
 import InfoSection from './components/InfoSection';
 import Menu from './components/Menu';
+import LoginForm from './components/LoginForm';
 
 function App() {
   return (
@@ -10,9 +11,11 @@ function App() {
       <main>
         <InfoSection />
         <Menu />
+        <LoginForm />
       </main>
     </>
   );
 }
+
 
 export default App;
